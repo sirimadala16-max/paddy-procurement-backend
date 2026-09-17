@@ -1,0 +1,16 @@
+{
+  "name": "paddy-procurement-backend",
+  "version": "1.0.0",
+  "description": "Backend for Paddy Procurement Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "jsforce": "^3.10.1"
+  }
+}
